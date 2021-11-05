@@ -1,6 +1,7 @@
 import axios from 'axios';
 import { API_URL_WALLET } from '../Constants';
 
+
 class WalletService {
 
     getWalletList = (headers) => {
